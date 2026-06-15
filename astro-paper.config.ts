@@ -34,7 +34,7 @@ export default defineAstroPaperConfig({
     
     // 2. 你的 Bilibili 主页 (请记得把下面的链接换成你自己的！)
     // 格式通常是 https://space.bilibili.com/你的UID
-    { name: "bilibili", url: "https://space.bilibili.com/你的UID" },
+    { name: "bilibili", url: "https://space.bilibili.com/388294987" },
   ],
   shareLinks: [
     // 分享链接保持默认即可，不需要改
