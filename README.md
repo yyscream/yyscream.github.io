@@ -1,166 +1,182 @@
-# AstroPaper 📄
+# 🍃 YiYiSu's Blog
 
-![AstroPaper](public/default-og.jpg)
-[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1356898632249991861)
+![YiYiSu's Blog](public/default-og.jpg)
+
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-F38020?style=for-the-badge&logo=cloudflarepages&logoColor=white)
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+**亿壹粟的个人博客** —— 一个基于 [AstroPaper](https://github.com/satnaing/astro-paper) 主题构建的前端学习笔记与成长记录博客。
 
-Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
-
-## 🔥 Features
-
-- [x] type-safe markdown
-- [x] super fast performance
-- [x] accessible (Keyboard/VoiceOver)
-- [x] responsive (mobile ~ desktops)
-- [x] SEO-friendly
-- [x] light & dark mode
-- [x] static search ([Pagefind](https://pagefind.app/))
-- [x] draft posts & pagination
-- [x] sitemap & rss feed
-- [x] MDX support
-- [x] collapsible table of contents
-- [x] followed best practices
-- [x] highly customizable
-- [x] dynamic OG image generation for blog posts ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
-- [x] i18n ready
-
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
-
-## ✅ Lighthouse Score
-
-<p align="center">
-  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
-    <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
-  </a>
-</p>
-
-## 🚀 Project Structure
-
-Inside of AstroPaper, you'll see the following folders and files:
-
-```bash
-/
-├── public/
-│   ├── pagefind/          # auto-generated on build
-│   ├── favicon.svg
-│   └── default-og.jpg
-├── src/
-│   ├── assets/
-│   │   ├── icons/
-│   │   └── images/
-│   ├── components/
-│   ├── content/
-│   │   ├── pages/
-│   │   │   └── about.md
-│   │   └── posts/
-│   │       └── some-blog-posts.md
-│   ├── i18n/
-│   ├── layouts/
-│   ├── pages/
-│   ├── scripts/
-│   ├── styles/
-│   ├── types/
-│   ├── utils/
-│   ├── config.ts
-│   └── content.config.ts
-├── astro-paper.config.ts  # user-defined configurations
-└── astro.config.ts
-```
-
-All blog posts are stored in the `src/content/posts/` directory. You can organise posts into subdirectories — the subdirectory name becomes part of the post URL.
-
-## 📖 Documentation
-
-Documentation can be read in two formats\_ _markdown_ & _blog post_.
-
-- Configuration - [markdown](src/content/posts/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/content/posts/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/content/posts/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/content/posts/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
-
-## 💻 Tech Stack
-
-**Main Framework** - [Astro](https://astro.build/)  
-**Type Checking** - [TypeScript](https://www.typescriptlang.org/)  
-**Styling** - [TailwindCSS](https://tailwindcss.com/)  
-**UI/UX** - [Figma Design File](https://www.figma.com/community/file/1356898632249991861)  
-**Static Search** - [Pagefind](https://pagefind.app/)  
-**Icons** - [Tablers](https://tabler-icons.io/)  
-**Code Formatting** - [Prettier](https://prettier.io/)  
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Linting** - [ESLint](https://eslint.org)  
-**Dynamic OG images** - [Satori](https://github.com/vercel/satori) + [Sharp](https://sharp.pixelplumbing.com/) + [Astro Fonts](https://docs.astro.build/en/guides/fonts/)
-
-## 👨🏻‍💻 Running Locally
-
-You can start using this project locally by running the following command in your desired directory:
-
-```bash
-# pnpm
-pnpm create astro@latest --template satnaing/astro-paper
-
-# npm
-npm create astro@latest -- --template satnaing/astro-paper
-
-# yarn
-yarn create astro --template satnaing/astro-paper
-
-# bun
-bun create astro@latest -- --template satnaing/astro-paper
-```
-
-Then start the project by running the following commands:
-
-```bash
-# install dependencies if you haven't done so in the previous step.
-pnpm install
-
-# start running the project
-pnpm dev
-```
-
-## Google Site Verification (optional)
-
-You can add your [Google Site Verification HTML tag](https://support.google.com/webmasters/answer/9008080#meta_tag_verification&zippy=%2Chtml-tag) by setting `site.googleVerification` in `astro-paper.config.ts`:
-
-```ts file="astro-paper.config.ts"
-export default defineAstroPaperConfig({
-  site: {
-    // ...
-    googleVerification: "your-google-site-verification-value",
-  },
-  // ...
-});
-```
-
-> See [this discussion](https://github.com/satnaing/astro-paper/discussions/334#discussioncomment-10139247) for adding AstroPaper to the Google Search Console.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command          | Action                                                                                                                           |
-| :--------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| `pnpm install`   | Installs dependencies                                                                                                            |
-| `pnpm dev`       | Starts local dev server at `localhost:4321`                                                                                      |
-| `pnpm build`     | Type-checks, builds the site, runs Pagefind indexing, and copies the index to `public/pagefind/`                                 |
-| `pnpm preview`   | Preview your build locally, before deploying                                                                                     |
-| `pnpm sync`      | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
-| `pnpm astro ...` | Run CLI commands like `astro add`, `astro check`                                                                                 |
-
-## ✨ Feedback & Suggestions
-
-If you have any suggestions/feedback, you can contact me via [my email](mailto:satnaingdev+astropaper@gmail.com). Alternatively, feel free to open an issue if you find bugs or want to request new features.
-
-## 📜 License
-
-Licensed under the MIT License, Copyright © 2026
+> 🌐 在线地址：[https://yyscream.github.io](https://yyscream.github.io)
 
 ---
 
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+## 📋 项目简介
+
+这是一个使用 [Astro](https://astro.build/) 构建的静态博客站点，部署在 [Cloudflare Pages](https://pages.cloudflare.com/) 上。主题基于 [AstroPaper](https://github.com/satnaing/astro-paper) 进行定制，专注于内容创作和阅读体验。
+
+### ✨ 功能特性
+
+- ✅ **TypeScript 类型安全** — 全程类型检查，更少的运行时错误
+- ⚡ **极速性能** — Astro 静态生成，秒开加载
+- ♿ **无障碍访问** — 支持键盘和屏幕阅读器
+- 📱 **响应式设计** — 手机到桌面全适配
+- 🔍 **站内搜索** — 基于 [Pagefind](https://pagefind.app/) 的静态搜索
+- 🌓 **深色/浅色模式** — 跟随系统或手动切换
+- 📝 **草稿与分页** — 支持文章草稿和列表分页
+- 🗺️ **Sitemap & RSS** — 站点地图和 RSS 订阅
+- 🖼️ **动态 OG 图** — 文章自动生成社交分享封面图
+- 🌍 **多语言支持** — 内置国际化（i18n）框架
+- 📦 **MDX 支持** — 可在 Markdown 中使用组件
+
+---
+
+## 🚀 快速开始
+
+### 本地开发
+
+```bash
+# 1. 克隆仓库
+git clone https://github.com/yyscream/yyscream.github.io.git
+cd yyscream.github.io
+
+# 2. 安装依赖（推荐使用 pnpm）
+pnpm install
+
+# 3. 启动开发服务器
+pnpm dev
+```
+
+浏览器打开 `http://localhost:4321` 即可预览。
+
+### 常用命令
+
+| 命令             | 说明                                                 |
+| :--------------- | :--------------------------------------------------- |
+| `pnpm install`   | 安装项目依赖                                         |
+| `pnpm dev`       | 启动本地开发服务器（默认 `localhost:4321`）          |
+| `pnpm build`     | 构建生产版本（含类型检查、Pagefind 索引）            |
+| `pnpm preview`   | 本地预览构建后的站点                                 |
+| `pnpm sync`      | 生成 Astro 模块的 TypeScript 类型                    |
+| `pnpm astro ...` | 执行 Astro CLI 命令（如 `astro add`, `astro check`） |
+
+---
+
+## 📁 项目结构
+
+```
+/
+├── public/                  # 静态资源
+│   └── pagefind/            # 构建时自动生成的搜索索引
+├── src/
+│   ├── assets/              # 图标和图片资源
+│   ├── components/          # Astro 组件
+│   ├── content/
+│   │   ├── pages/           # 自定义页面（如 about.md）
+│   │   └── posts/           # 博客文章（Markdown / MDX）
+│   ├── i18n/                # 国际化配置
+│   ├── layouts/             # 页面布局
+│   ├── pages/               # 路由页面
+│   ├── scripts/             # 客户端脚本
+│   ├── styles/              # 全局样式
+│   ├── types/               # TypeScript 类型定义
+│   ├── utils/               # 工具函数
+│   ├── config.ts            # 内部配置
+│   └── content.config.ts    # 内容集合定义
+├── astro-paper.config.ts    # 🔧 用户配置文件（个性化设置）
+├── astro.config.ts          # Astro 配置
+├── compose.yaml             # Docker Compose 配置
+└── Dockerfile               # Docker 部署配置
+```
+
+> 博客文章全部存放在 `src/content/posts/` 目录下，支持按子目录组织。
+
+---
+
+## 🔧 个性化配置
+
+所有的个性化设置都在 `astro-paper.config.ts` 中完成：
+
+```ts
+// astro-paper.config.ts
+export default defineAstroPaperConfig({
+  site: {
+    url: "https://yyscream.github.io/",
+    title: "YiYiSu's Blog",
+    description: "亿壹粟的个人博客",
+    author: "YiYiSu",
+    lang: "zh-cn",
+    timezone: "Asia/Shanghai",
+  },
+  posts: {
+    perPage: 4, // 每页文章数
+    perIndex: 4, // 首页展示数
+    scheduledPostMargin: 15 * 60 * 1000, // 定时发布缓冲（毫秒）
+  },
+  socials: [
+    { name: "github", url: "https://github.com/yyscream" },
+    { name: "bilibili", url: "https://space.bilibili.com/388294987" },
+  ],
+});
+```
+
+### 📝 添加新文章
+
+在 `src/content/posts/` 下创建 `.md` 或 `.mdx` 文件，添加 Frontmatter 即可：
+
+```yaml
+---
+title: "文章标题"
+description: "文章描述"
+pubDatetime: 2026-06-15T10:00:00Z
+tags: ["标签1", "标签2"]
+draft: false
+---
+```
+
+---
+
+## 🛠️ 技术栈
+
+| 技术                                                                                   | 用途             |
+| :------------------------------------------------------------------------------------- | :--------------- |
+| [Astro](https://astro.build/)                                                          | 静态站点框架     |
+| [TypeScript](https://www.typescriptlang.org/)                                          | 类型安全检查     |
+| [Tailwind CSS](https://tailwindcss.com/)                                               | 样式方案         |
+| [Pagefind](https://pagefind.app/)                                                      | 站内静态搜索     |
+| [Satori](https://github.com/vercel/satori) + [Sharp](https://sharp.pixelplumbing.com/) | 动态 OG 图片生成 |
+| [Cloudflare Pages](https://pages.cloudflare.com/)                                      | 托管部署         |
+| [Docker](https://www.docker.com/)                                                      | 本地容器化开发   |
+
+---
+
+## 🚢 部署
+
+### Cloudflare Pages（推荐）
+
+推送代码到 GitHub 主分支后，Cloudflare Pages 会自动构建部署。在 Cloudflare Dashboard 中配置：
+
+- **构建命令**：`pnpm run build`
+- **输出目录**：`dist`
+
+### Docker 部署
+
+项目提供了 `Dockerfile` 和 `compose.yaml`，支持容器化部署：
+
+```bash
+docker compose up -d
+```
+
+访问 `http://localhost:4321` 即可。
+
+---
+
+## 📄 许可证
+
+本项目基于 MIT 协议开源，Copyright © 2026 YiYiSu。
+
+---
+
+> 🙏 主题来自 [AstroPaper](https://github.com/satnaing/astro-paper) by [Sat Naing](https://satnaing.dev)
