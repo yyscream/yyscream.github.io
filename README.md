@@ -39,8 +39,8 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/yyscream/yyscream.github.io.git
-cd yyscream.github.io
+git clone https://github.com/yyscream/yiyisu-blog.git
+cd yiyisu-blog
 
 # 2. 安装依赖（推荐使用 pnpm）
 pnpm install

@@ -24,7 +24,7 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: {
       enabled: true,
-      url: "https://github.com/yyscream/yyscream.github.io/edit/main/",
+      url: "https://github.com/yyscream/yiyisu-blog/edit/main/",
     },
     search: "pagefind",
   },
