@@ -1,37 +1,27 @@
 ---
 title: "About"
-description: "A bit about me and this blog."
+description: "关于我和这个博客。"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+你好！我是 **YiYiSu**（亿壹粟），一名前端开发学习者。
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+这个博客是我的个人技术笔记和成长记录，主要用来分享我在前端学习和开发过程中的心得、踩坑记录以及一些有趣的项目。
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+## 关于我
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+- 🌱 目前在学习前端开发，专注于现代 Web 技术
+- 💻 正在通过实战项目来提升自己的编程能力
+- 📝 喜欢记录和分享学到的知识
+- 🎯 目标是成为一名优秀的前端工程师
 
-## Features
+## 关于这个博客
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+这个博客基于 [AstroPaper](https://github.com/satnaing/astro-paper) 主题搭建，使用 [Astro](https://astro.build/) 和 [Tailwind CSS](https://tailwindcss.com/) 构建。
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+在这里，我会不定期发布关于前端技术、项目经验和学习笔记等内容的文章。
 
-and so much more.
+## 联系我
 
-## Show your support
+- **GitHub**: [yyscream](https://github.com/yyscream)
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+如果你对我的文章有任何问题或建议，欢迎在 GitHub 上与我交流！
