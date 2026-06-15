@@ -1,7 +1,7 @@
 ---
 title: "TypeScript 快速入门笔记：从零理解类型系统"
 description: "一篇面向初学者的 TypeScript 入门指南，涵盖 TypeScript 与 JavaScript 的区别、编译流程、类型系统能预防的错误等核心概念。"
-pubDatetime: 2026-06-15T10:00:00Z
+pubDatetime: 2026-06-14T10:00:00Z
 updatedDatetime: 2026-06-15T10:00:00Z
 heroImage: "/blog-placeholder-1.jpg"
 tags: ["TypeScript", "前端学习", "入门指南"]
