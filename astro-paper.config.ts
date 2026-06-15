@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://yyscream.github.io/",
+    url: "https://yiyisu.top/",
     title: "YiYiSu's Blog",
     description: "亿壹粟的个人博客",
     author: "YiYiSu",

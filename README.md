@@ -9,7 +9,7 @@
 
 **亿壹粟的个人博客** —— 一个基于 [AstroPaper](https://github.com/satnaing/astro-paper) 主题构建的前端学习笔记与成长记录博客。
 
-> 🌐 在线地址：[https://yyscream.github.io](https://yyscream.github.io)
+> 🌐 在线地址：[https://yiyisu.top](https://yiyisu.top)
 
 ---
 
@@ -103,7 +103,7 @@ pnpm dev
 // astro-paper.config.ts
 export default defineAstroPaperConfig({
   site: {
-    url: "https://yyscream.github.io/",
+    url: "https://yiyisu.top/",
     title: "YiYiSu's Blog",
     description: "亿壹粟的个人博客",
     author: "YiYiSu",
