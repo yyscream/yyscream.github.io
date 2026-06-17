@@ -1,13 +1,15 @@
 ---
-title: "TypeScript 快速入门笔记：从零理解类型系统"
-description: "一篇面向初学者的 TypeScript 入门指南，涵盖 TypeScript 与 JavaScript 的区别、编译流程、类型系统能预防的错误等核心概念。"
+title: "TS入门圣经：从零理解类型系统 — 基于 Total TypeScript 的学习笔记"
+description: "一篇基于 Matt Pocock 的 Total TypeScript 项目整理的 TypeScript 入门指南，涵盖 TS 与 JS 的区别、编译流程、类型系统能预防的错误等核心概念。"
 pubDatetime: 2026-06-14T10:00:00Z
-updatedDatetime: 2026-06-15T10:00:00Z
+updatedDatetime: 2026-06-17T10:00:00Z
 heroImage: "/blog-placeholder-1.jpg"
-tags: ["TypeScript", "前端学习", "入门指南"]
+tags: ["TypeScript", "前端学习", "入门指南", "Total TypeScript"]
 ---
 
-最近开始系统学习 TypeScript，整理了一些入门笔记，分享给同样在路上的朋友们。
+> 📖 **学习来源**：本文是我学习 [**Total TypeScript**](https://www.totaltypescript.com/)（Matt Pocock 的 TypeScript 教程项目）做的个人笔记总结。Matt Pocock 是 TypeScript 社区知名教育家，教程以清晰、实战著称，感兴趣的朋友也可以自己去看看。
+
+最近跟着 Matt Pocock 的 Total TypeScript 教程系统学习 TypeScript，整理了一些入门笔记，分享给同样在路上的朋友们。
 
 ## TypeScript 和 JavaScript 有什么不同？
 
@@ -87,6 +89,10 @@ const isStudent: boolean = true; // 布尔值
 
 ## 写在最后
 
-以上是 TypeScript 入门阶段最基础的核心概念。刚开始接触类型系统可能会觉得有点麻烦，但用上一段时间就会发现——**类型系统不是在给你添麻烦，而是在帮你兜底。**
+以上是 TypeScript 入门阶段最基础的核心概念，内容基于 [**Total TypeScript**](https://www.totaltypescript.com/)（Matt Pocock）的教程整理。刚开始接触类型系统可能会觉得有点麻烦，但用上一段时间就会发现——**类型系统不是在给你添麻烦，而是在帮你兜底。**
 
-后面还会继续整理类型注解、对象类型、泛型等内容，欢迎关注交流 🌟
+后面还会继续基于 Total TypeScript 的学习整理类型注解、对象类型、泛型等进阶内容，欢迎关注交流 🌟
+
+---
+
+> 📌 **关于 Total TypeScript**：[Matt Pocock](https://www.totaltypescript.com/) 的 TypeScript 教程被全球开发者誉为"TS 入门圣经"。本文所有知识点均来源于对该项目的学习与总结，感兴趣的朋友可以自行前往了解。
