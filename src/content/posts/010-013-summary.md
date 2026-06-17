@@ -1,8 +1,8 @@
 ---
 title: "TypeScript 构建流程入门：从编译到自动化"
 description: "基于 Total TypeScript 学习的 TypeScript 构建流程笔记，涵盖浏览器为何不能直接运行 TS、tsc 编译、watch 模式自动编译、outDir 管理编译产物等。"
-pubDatetime: 2026-06-17T14:00:00Z
-updatedDatetime: 2026-06-17T14:00:00Z
+pubDatetime: 2026-06-17T01:33:00Z
+updatedDatetime: 2026-06-17T01:33:00Z
 heroImage: "/blog-placeholder-1.jpg"
 tags: ["TypeScript", "构建流程", "tsc", "入门指南", "Total TypeScript"]
 ---
